@@ -1,0 +1,22 @@
+
+header {
+  display: flex;
+  justify-content: center;
+  height: 70px;
+  // line
+  border-bottom: 2px solid black;
+}
+
+
+  .title {
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 75px;
+  }
+
+.kanbanListContainer {
+  //
+  display: flex;
+  justify-content: center;
+  margin: 50px 20px;
+}
