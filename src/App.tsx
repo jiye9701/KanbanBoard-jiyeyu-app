@@ -26,7 +26,7 @@ function App() {
   return (
     <>
       <header>
-        <span className="title">Kaban Board - Jiye Yu</span>
+        <span className="title">Kanban Board - Jiye Yu</span>
 
       </header>
       <section className="kanbanListContainer">
@@ -35,7 +35,7 @@ function App() {
           <KanbanList title={TODO}>
             {cardDataHandler(TODO)}
           </KanbanList>
-          
+
           <KanbanList title={INPROGRESS}>{cardDataHandler(INPROGRESS)}</KanbanList>
           <KanbanList title={DONE}>{cardDataHandler(DONE)}</KanbanList>
         </DndProvider>
