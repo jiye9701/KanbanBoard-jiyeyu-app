@@ -129,6 +129,7 @@ function KabanCard({ item }: { item: cardtype }) {
         onChange={editTitle}
         placeholder="Title"
       />
+
       <textarea
         className="cardContent"
         value={item.content}
